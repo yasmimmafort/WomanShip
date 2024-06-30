@@ -46,7 +46,7 @@ projeto/
 * Certifique-se de que o servidor MySQL esteja em execução.
 * Edite as credenciais de conexão no script `import_data_mysql.py`:
 ```python
-cnx = mysql.connector.connect(user='root', password='SuaSenha', host='localhost', database='logistica', auth_plugin='mysql_native_password')
+cnx = mysql.connector.connect(user='usuario', password='senha', host='localhost', database='banco_de_dados', auth_plugin='mysql_native_password')
 ```
 **Execução do Script** 
 Execute o script `import_data_mysql.py` para importar os dados para o banco de dados MySQL:
@@ -59,7 +59,7 @@ O script irá criar tabelas no banco de dados conforme necessário e inserir os 
 * **Excel**: Utiliza a biblioteca `pandas` para ler dados de arquivos `.xlsx`.
    * **XML**: Utiliza `xml.etree.ElementTree` para parsear e extrair dados de arquivos `.xml`.
    * **CSV**: Manipula dados de arquivos `.csv` diretamente com `pandas`.”
-“**Criação de Tabelas**
+**Criação de Tabelas**
 * Cada fonte de dados (tipos de navio, rastreamento de navios e taxas) é mapeada para tabelas MySQL correspondentes.
   * As tabelas são criadas dinamicamente com base nos dados extraídos de cada arquivo.
 
