@@ -1,0 +1,7 @@
+ID_Multa,ID_Navio,Porto,Data_Multa,Motivo,Valor
+1,1,,2022-05-29 05:33:02,Atraso na saída,10730.685577328579
+2,2,,2022-05-17 11:33:02,Poluição,44414.67714014897
+3,16,,2022-04-09 11:33:02,Atraso na saída,17164.933329274514
+4,25,,2022-06-19 11:33:02,Falha em seguir as normas de tráfego,1984.064798981918
+5,35,,2021-06-24 11:33:02,Atraso na saída,12890.454777159266
+6,44,,2022-05-29 05:33:02,Falha em seguir as normas de tráfego,3479.2166935301625

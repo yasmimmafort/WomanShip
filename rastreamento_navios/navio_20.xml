@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Navio ID="20"><Nome>Navio T</Nome><Rastreamento><PontoDeDados Timestamp="2021-11-12T14:17:23Z"><Latitude>35.835</Latitude><Longitude>14.545</Longitude><Velocidade>17</Velocidade><Direcao>53.914166500800874</Direcao><Status>Ancorado</Status></PontoDeDados><PontoDeDados Timestamp="2021-11-12T20:17:23Z"><Latitude>35.835</Latitude><Longitude>14.545</Longitude><Velocidade>17</Velocidade><Direcao>53.914166500800874</Direcao><Status>Ancorado</Status></PontoDeDados></Rastreamento></Navio>

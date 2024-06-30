@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Navio ID="3"><Nome>Navio C</Nome><Rastreamento><PontoDeDados Timestamp="2022-01-31T14:17:23Z"><Latitude>-23.9622</Latitude><Longitude>-46.3344</Longitude><Velocidade>17</Velocidade><Direcao>216.90824825566185</Direcao><Status>Ancorado</Status></PontoDeDados><PontoDeDados Timestamp="2022-01-31T20:17:23Z"><Latitude>-23.9622</Latitude><Longitude>-46.3344</Longitude><Velocidade>17</Velocidade><Direcao>216.90824825566185</Direcao><Status>Ancorado</Status></PontoDeDados></Rastreamento></Navio>
