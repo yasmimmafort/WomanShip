@@ -5,7 +5,7 @@ import mysql.connector
 import xml.etree.ElementTree as ET
 
 
-cnx = mysql.connector.connect(user='root', password='Sh@dow2001', host='localhost', database='logistica', auth_plugin='mysql_native_password')
+cnx = mysql.connector.connect(user='usuario', password='senha', host='localhost', database='banco de dados', auth_plugin='mysql_native_password')
 cursor = cnx.cursor()
 
 
