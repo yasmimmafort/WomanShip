@@ -96,8 +96,8 @@ cleaned_csv_data = clean_csv_data(csv_data_taxas)
 connection = pymysql.connect(
     host='localhost',
     user='root',
-    password='Sh@dow2001',
-    db='logistica',
+    password='senha',
+    db='banco de dados',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
 )
