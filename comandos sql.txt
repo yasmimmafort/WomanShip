@@ -1,0 +1,22 @@
+#Rotas mais frequentes e seus custos médios
+SELECT 
+    `Nome do Navio`, 
+    COUNT(*) AS frequencia, 
+    AVG(`Valor (USD)`) AS custo_medio
+FROM 
+    tipos_navio_1
+GROUP BY 
+    `Nome do Navio`
+ORDER BY 
+    frequencia DESC;
+
+#  Portos com maior tempo de espera e seus impactos nos prazos de entreg
+SELECT 
+    `Porto`, 
+    COUNT(*) AS numero_vezes
+FROM 
+    tipos_navio_1
+GROUP BY 
+    `Porto`
+ORDER BY 
+    numero_vezes DESC;
